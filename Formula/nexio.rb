@@ -1,22 +1,22 @@
 class Nexio < Formula
   desc "Nexio CLI tool"
   homepage "https://github.com/denesbeck/nexio"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/denesbeck/nexio/releases/download/v0.1.1/nexio-darwin-arm64.tar.gz"
-      sha256 "920ecd71dcf4eef44a3c553fe39d5ee22200cea58055c40f06d1bec12d1de3f6"
+      url "https://github.com/denesbeck/nexio/releases/download/v0.2.0/nexio-darwin-arm64.tar.gz"
+      sha256 "7376140da5c90a35d1d505b90f5efde40bcd676786d8ffaf970c64c195c45bad"
     else
-      url "https://github.com/denesbeck/nexio/releases/download/v0.1.1/nexio-darwin-amd64.tar.gz"
-      sha256 "db0fed58aa21afb5760e864f28427897ed9ef43e0e23934bd9769d7881357f24"
+      url "https://github.com/denesbeck/nexio/releases/download/v0.2.0/nexio-darwin-amd64.tar.gz"
+      sha256 "bb09e78e71bc2d60ea1e1771030f464293f99cfdb8ec1cd1cc2c484740f5435a"
     end
   end
 
   on_linux do
-    url "https://github.com/denesbeck/nexio/releases/download/v0.1.1/nexio-linux-amd64.tar.gz"
-    sha256 "6cd11234e9ebf76aa96defc1a19ebc3e56a06a1e127d21c806822ffda06072d7"
+    url "https://github.com/denesbeck/nexio/releases/download/v0.2.0/nexio-linux-amd64.tar.gz"
+    sha256 "12208c9ab2e578dcd9abc4ce01607dae97068c2ccce46c907bb2b0f2b60289fa"
   end
 
   def install
